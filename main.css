@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styling */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+}
+.navbar :hover {
+  color: gray;
+  animation: backwards;  
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+/* Home section styling */
+.home {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-content {
+  max-width: 600px;
+}
+
+.home h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.home h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.home p {
+  margin-bottom: 30px;
+}
+
+.social-media a {
+  color: #333;
+  text-decoration: none;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+h3 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #333;
+
+
+}
+
+marquee {
+  border: 1px solid #ccc;
+  padding: 5px;
+  background-color: #f0f0f0; 
+}
+.social-media{
+  display: inline-flex;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  background:transparent;
+  border: .2rem solid var(--min-cold);
+}
